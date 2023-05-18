@@ -8,7 +8,7 @@ ext_btn.addEventListener('click', function(e) {
     if (extensions.style.right != '5px') {
         extensions.style.setProperty("right", "5px");
     } else {
-        extensions.style.setProperty("right", "-505px");
+        extensions.style.setProperty("right", "-2000px");
     }
 });
 
