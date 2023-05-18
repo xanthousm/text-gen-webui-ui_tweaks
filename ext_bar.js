@@ -1,17 +1,14 @@
-document.getElementById("extensions").style.setProperty("max-width", "500px");
-document.getElementById("extensions").style.setProperty("right", "100%");
-
 // Get references to the elements
-let extensions2 = document.getElementById('extensions');//re-using 'extensions' as a var name caused errors
+//extensions defined in main.js
 let ext_btn = document.getElementById('ext_toggle');
 
 // Add an event listener to the main element
 ext_btn.addEventListener('click', function(e) {
     // Check if the ext element is visible
-    if (extensions2.style.right == '100%') {
-        extensions2.style.setProperty("right", "5px");
+    if (extensions.style.right != '5px') {
+        extensions.style.setProperty("right", "5px");
     } else {
-        extensions2.style.setProperty("right", "100%");
+        extensions.style.setProperty("right", "-505px");
     }
 });
 
