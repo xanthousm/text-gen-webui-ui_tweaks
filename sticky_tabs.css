@@ -1,0 +1,15 @@
+.header_bar {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  background-color: #f7f7f7;
+  width: 100%; 
+  z-index: 50; /*some gradio labels have a high z-index, couldnn't bother finding its exact value*/
+}
+
+.dark .header_bar {
+  background-color: #1F222B; /*#8080802b blended with default bg color*/
+}
+#main, #parameters, #chat-settings, #interface-mode, #lora, #training-tab, #model-tab, #extension-tab{
+  margin-top: 50px;
+}
