@@ -2,7 +2,6 @@
 #extensions{
   position: fixed;
   bottom: 1em;
-  right: -2000px;
   margin-right: 0 !important;
   padding: 10px 10px 10px 10px !important;
   max-height: calc(100% - 5em);
@@ -13,7 +12,7 @@
   border-style: solid;
   border-width: 1px;
   border-color: var(--border-color-primary);
-  transition: 0.5s ;
+  transition: 0.25s ;
 }
 
 
