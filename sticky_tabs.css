@@ -10,6 +10,6 @@
 .dark .header_bar {
   background-color: #1F222B; /*#8080802b blended with default bg color*/
 }
-#main, #parameters, #chat-settings, #interface-mode, #lora, #training-tab, #model-tab, #extension-tab{
+#main, #parameters, #chat-settings, #interface-mode, #lora, #training-tab, #model-tab, .extension-tab{
   margin-top: 50px;
 }
