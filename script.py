@@ -21,12 +21,15 @@ params = {
 
 def custom_js():
     full_js=''
+    #use new scrollbars on main body
+    full_js+='\ndocument.body.classList.add("pretty_scrollbar");'
+    
     if params['ext_bar']:
         
         #set bar width
         full_js+=f'\nconst bar_w_str = "-{params["bar_width"]+5}px";'
         full_js+=f'\ndocument.getElementById("extensions").style.setProperty("max-width", "{params["bar_width"]}px");'
-        
+        full_js+='\ndocument.getElementById("extensions").classList.add("pretty_scrollbar");'
         #load bar toggle
         full_js+=open(ext_bar_js, 'r').read()
         
