@@ -1,8 +1,5 @@
 .header_bar {
   position: fixed !important;
-  top: 0;
-  left: 0;
-  background-color: #f7f7f7;
   width: 100%; 
   z-index: 50; /*some gradio labels have a high z-index, couldnn't bother finding its exact value*/
 }

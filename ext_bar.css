@@ -6,7 +6,7 @@
   padding: 10px 10px 10px 10px !important;
   max-height: calc(100% - 5em);
   overflow-y: auto;
-  z-index: 51;
+  z-index: 1001;
   background-color: var(--panel-background-fill);
   border-radius: var(--radius-lg);
   border-style: solid;
@@ -20,6 +20,6 @@
   position: fixed !important;
   bottom: 5px;
   right: 5px;
-  z-index: 52; 
+  z-index: 1002; 
   width: min-content; 
 }
